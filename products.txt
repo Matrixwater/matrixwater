@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Pipes and Fittings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1em;
+            padding: 2em;
+        }
+        .card {
+            background-color: white;
+            padding: 1.5em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card h2 {
+            color: #0077b6;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Water Pipes and Fittings</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>UPVC Pipes</h2>
+            <img src="upvc.jpg" alt="UPVC Pipes">
+            <p>High-quality UPVC pipes for water supply and drainage systems.</p>
+        </div>
+        <div class="card">
+            <h2>PVC Pipes</h2>
+            <img src="pvc.jpg" alt="PVC Pipes">
+            <p>Durable PVC pipes suitable for various applications.</p>
+        </div>
+        <div class="card">
+            <h2>HDPE Pipes</h2>
+            <img src="hdpe.jpg" alt="HDPE Pipes">
+            <p>Flexible and strong HDPE pipes for high-pressure applications.</p>
+        </div>
+        <div class="card">
+            <h2>Fittings</h2>
+            <img src="fittings.jpg" alt="Fittings">
+            <p>Complete range of fittings for all pipe types.</p>
+        </div>
+    </div>
+</body>
+</html>

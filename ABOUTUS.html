@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Matrix Water Pipes and Fittings</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth; /* Smooth scrolling */
+        }
+
+        header {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 1.5em;
+            position: sticky; /* Sticky header */
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s ease; /* Header color transition */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            animation: fadeInDown 1s ease-in-out; /* Fade animation */
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Navigation bar styling */
+        nav {
+            margin-top: 1em;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1.2em;
+            display: inline-block;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        nav a:hover, nav a:focus {
+            background-color: #005f8a;
+            border-radius: 5px;
+            transform: translateY(-3px); /* Slight bounce on hover */
+        }
+
+        .about-us-container {
+            max-width: 900px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .about-us-container h1 {
+            color: #0077b6;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        .about-us-container p {
+            line-height: 1.8;
+            color: #333;
+            text-align: justify;
+            margin-bottom: 1.5em;
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 1.5em;
+        }
+
+        .logo-container img {
+            width: 150px;
+            height: auto;
+        }
+
+        /* Button style */
+        .button {
+            display: inline-block;
+            padding: 0.8em 1.5em;
+            background-color: #0077b6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            font-weight: bold;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .button:hover, .button:focus {
+            background-color: #005f8a;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 2em;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin-left: 5px;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            body {
+                font-size: 0.9em;
+            }
+
+            .about-us-container {
+                padding: 1.5em;
+            }
+
+            nav a {
+                padding: 0.4em 0.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Matrix Water Pipes and Fittings</h1>
+        <nav class="nav">
+            <a href="home2page.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="products.html">Products & Services</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="about-us-container">
+        <div class="logo-container">
+            <img src="matrixlogo.png" alt="Matrix Logo">
+        </div>
+
+        <h1>About Us</h1>
+
+        <p>
+            At <strong>Matrix Water Pipes and Fittings</strong>, we are dedicated to providing top-quality plumbing solutions for residential, commercial, and industrial applications. 
+            Located in the heart of Nairobi, we specialize in the supply and distribution of a wide range of products, including UPVC, PVC, PPR, and HDPE pipes and fittings. 
+            Our focus is on delivering durable, efficient, and cost-effective solutions that meet the highest industry standards.
+        </p>
+
+        <p>
+            With a strong commitment to innovation, quality, and customer satisfaction, Matrix has built a reputation for excellence. We partner with leading manufacturers to 
+            ensure that our products not only meet but exceed the expectations of our clients. Whether it's for water supply, drainage, or plumbing systems, we offer a 
+            complete range of solutions tailored to the specific needs of our customers.
+        </p>
+
+        <p>
+            At Matrix, we believe in creating lasting relationships with our clients by providing exceptional service, technical expertise, and a deep understanding of their unique requirements. 
+            Our team of skilled professionals is always ready to assist you in selecting the right products for your project, ensuring reliable performance and long-term value.
+        </p>
+
+        <a href="products.html" class="button">Explore Our Products</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Matrix Water Pipes and Fittings. All rights reserved.</p>
+        <p>Contact Us: <a href="mailto:info@matrixwater.com">info@matrixwater.com</a> | <a href="tel:+254123456789">+254 72 803 1111</a></p>
+    </footer>
+
+</body>
+</html>
